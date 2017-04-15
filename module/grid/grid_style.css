@@ -1,0 +1,234 @@
+/* 子元素靠左叠加，类似于float:left */
+/* 使两边的元素靠边，所有元素之间间距平分 */
+/* 垂直居中 */
+/* 水平居中 */
+/* 垂直水平居中 */
+/* 强制不换行 */
+/* 自动换行 */
+/* 强制英文单词断行 */
+/* 隐藏 */
+/* 显现 */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\000036}}
+.container {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\000038}}
+.container .row {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000313}}
+.container .row .col-md-12 {
+  width: 99.96%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000316}}
+.container .row .col-md-11 {
+  width: 91.63%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000319}}
+.container .row .col-md-10 {
+  width: 83.3%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000322}}
+.container .row .col-md-9 {
+  width: 74.97%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000325}}
+.container .row .col-md-8 {
+  width: 66.64%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000328}}
+.container .row .col-md-7 {
+  width: 58.31%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000331}}
+.container .row .col-md-6 {
+  width: 49.98%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000334}}
+.container .row .col-md-5 {
+  width: 41.65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000337}}
+.container .row .col-md-4 {
+  width: 33.32%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000340}}
+.container .row .col-md-3 {
+  width: 24.99%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000343}}
+.container .row .col-md-2 {
+  width: 16.66%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000346}}
+.container .row .col-md-1 {
+  width: 8.33%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000349}}
+.container .row .col-md-12,
+.container .row .col-md-11,
+.container .row .col-md-10,
+.container .row .col-md-9,
+.container .row .col-md-8,
+.container .row .col-md-7,
+.container .row .col-md-6,
+.container .row .col-md-5,
+.container .row .col-md-4,
+.container .row .col-md-3,
+.container .row .col-md-2,
+.container .row .col-md-1 {
+  display: inline-block;
+}
+@media screen and (max-width: 992px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000358}}
+  .container {
+    padding: 0 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000360}}
+  .container .row {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000363}}
+  .container .row .col-sm-12 {
+    width: 99.96%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000366}}
+  .container .row .col-sm-11 {
+    width: 91.63%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000369}}
+  .container .row .col-sm-10 {
+    width: 83.3%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000372}}
+  .container .row .col-sm-9 {
+    width: 74.97%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000375}}
+  .container .row .col-sm-8 {
+    width: 66.64%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000378}}
+  .container .row .col-sm-7 {
+    width: 58.31%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000381}}
+  .container .row .col-sm-6 {
+    width: 49.98%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000384}}
+  .container .row .col-sm-5 {
+    width: 41.65%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000387}}
+  .container .row .col-sm-4 {
+    width: 33.32%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000390}}
+  .container .row .col-sm-3 {
+    width: 24.99%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000393}}
+  .container .row .col-sm-2 {
+    width: 16.66%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000396}}
+  .container .row .col-sm-1 {
+    width: 8.33%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\0000399}}
+  .container .row .col-sm-12,
+  .container .row .col-sm-11,
+  .container .row .col-sm-10,
+  .container .row .col-sm-9,
+  .container .row .col-sm-8,
+  .container .row .col-sm-7,
+  .container .row .col-sm-6,
+  .container .row .col-sm-5,
+  .container .row .col-sm-4,
+  .container .row .col-sm-3,
+  .container .row .col-sm-2,
+  .container .row .col-sm-1 {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003109}}
+  .container {
+    padding: 0 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003111}}
+  .container .row {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003114}}
+  .container .row .col-xs-12 {
+    width: 99.96%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003117}}
+  .container .row .col-xs-11 {
+    width: 91.63%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003120}}
+  .container .row .col-xs-10 {
+    width: 83.3%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003123}}
+  .container .row .col-xs-9 {
+    width: 74.97%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003126}}
+  .container .row .col-xs-8 {
+    width: 66.64%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003129}}
+  .container .row .col-xs-7 {
+    width: 58.31%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003132}}
+  .container .row .col-xs-6 {
+    width: 49.98%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003135}}
+  .container .row .col-xs-5 {
+    width: 41.65%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003138}}
+  .container .row .col-xs-4 {
+    width: 33.32%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003141}}
+  .container .row .col-xs-3 {
+    width: 24.99%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003144}}
+  .container .row .col-xs-2 {
+    width: 16.66%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003147}}
+  .container .row .col-xs-1 {
+    width: 8.33%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task14\/module\/grid\/grid_style\.less}line{font-family:\00003150}}
+  .container .row .col-xs-12,
+  .container .row .col-xs-11,
+  .container .row .col-xs-10,
+  .container .row .col-xs-9,
+  .container .row .col-xs-8,
+  .container .row .col-xs-7,
+  .container .row .col-xs-6,
+  .container .row .col-xs-5,
+  .container .row .col-xs-4,
+  .container .row .col-xs-3,
+  .container .row .col-xs-2,
+  .container .row .col-xs-1 {
+    display: inline-block;
+  }
+}
+/*# sourceMappingURL=grid_style.css.map */
